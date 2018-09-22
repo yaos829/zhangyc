@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+	<head>
+
+		<meta charset="utf-8" />
+		<title>地科设计</title>
+	  	<link rel="stylesheet" href="reveal.css">	
+		<script src="jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="jquery.reveal.js"></script>
+		<style type="text/css">
+			*{margin: 0 auto;}
+			body { font-family: 微软雅黑; }
+			.big-link { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+			area{outline: none}
+			.main { width: 1440px; margin: 0 auto;}
+			.pic {  width: 860px; margin: 0 auto;}
+			.tit {font-size: 24px; margin: 0 auto; width: 860px; margin-top: 25px;}
+		</style>
+	</head>
+
+	<body>
+
+	<div class="main">
+		<p class="tit"> 春春大佬的地图设计 </p>
+		<div class="pic">
+			<img src="hb.jpg" border="0" usemap="#planetmap" alt="Planets" width="860" height="600" />
+ 				<map  name="planetmap">
+    		 		<area shape="circle" coords="620,388,20" href ="#" data-reveal-id="hb">
+					<area shape="circle" coords="379,228,20"  href ="#"  data-reveal-id="xy" />
+    			</map>
+		</div>
+		<div id="hb" class="reveal-modal">
+			<h1>武汉</h1>
+			<p>武汉是个好地方</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+		
+		<div id="xy" class="reveal-modal" >
+			<h1>襄阳</h1>
+			<p>襄阳是个好地方</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+	</div>
+
+	</body>
+
+</html>
